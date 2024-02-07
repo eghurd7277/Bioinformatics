@@ -11,3 +11,19 @@ myFirstALign
 
 print(myFirstALign, show="complete")
 
+LetterCont <- alphabetFrequency(myFirstALign)
+ConsSeq <- consensusString(myFirstALign)
+gaps <- str_count(ConsSeq,"-")
+
+
+G <- sum(LetterCont[,3])
+C <- sum(LetterCont[,2])
+A <- sum(LetterCont[,1])
+T <- sum(LetterCont[,4])
+totalbp <- A+T+C+G
+totalbp
+GC_Cont <- (G+C)/totalbp
+
+
+alignLength <- nchar(myFirstALign)
+
