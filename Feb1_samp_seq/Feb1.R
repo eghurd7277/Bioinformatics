@@ -1,5 +1,5 @@
 #filepath = "/Users/emmagrace3/Desktop/bioinformatics/GitHub/Bioinformatics"
-
+# libraries: seqinr, msa, biostrings, tidyr, dplyr
 
 
 
