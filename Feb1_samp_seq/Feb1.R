@@ -28,5 +28,11 @@ GC_Cont <- (G+C)/totalbp
 alignLength <- nchar(myFirstALign)
 SecAlign <- msaConvert(myFirstALign,type="seqinr::alignment")
 
-d <- dist.alignment(SecAlign, matrix = c("identity"))
+d <- dist.alignment(SecAlign, matrix = "identity")
+dmat <- as.matrix(d)
+
+Alignment_phyDat <- msaConvert(myFirstALign, type="phangorn::phyDat")
+write.phyDat(Alignment_phyDat, "alignment.fasta", format = "fasta")
+
+
 
