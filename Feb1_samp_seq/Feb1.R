@@ -26,4 +26,7 @@ GC_Cont <- (G+C)/totalbp
 
 
 alignLength <- nchar(myFirstALign)
+SecAlign <- msaConvert(myFirstALign,type="seqinr::alignment")
+
+d <- dist.alignment(SecAlign, matrix = c("identity"))
 
