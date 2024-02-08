@@ -31,8 +31,13 @@ SecAlign <- msaConvert(myFirstALign,type="seqinr::alignment")
 d <- dist.alignment(SecAlign, matrix = "identity")
 dmat <- as.matrix(d)
 
+
+rnaSeq1 <- translate(mySeq[1,])
+
 Alignment_phyDat <- msaConvert(myFirstALign, type="phangorn::phyDat")
 write.phyDat(Alignment_phyDat, "alignment.fasta", format = "fasta")
+
+
 
 
 
