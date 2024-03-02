@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.base.evolution.alignment:beast.pkgmgmt:beast.base.core:beast.base.inference:beast.base.evolution.tree.coalescent:beast.pkgmgmt:beast.base.core:beast.base.inference.util:beast.evolution.nuc:beast.base.evolution.operator:beast.base.inference.operator:beast.base.evolution.sitemodel:beast.base.evolution.substitutionmodel:beast.base.evolution.likelihood" required="BEAST.base v2.7.6" version="2.7">
+
+    <data
+id="primate-mtDNA"
+spec="Alignment">
+        <sequence id="seq_Lemur_catta" spec="Sequence" taxon="Lemur_catta" totalcount="4" value="AAGCTTCATAGGAGCAACCATTCTAATAATCGCACATGGCCTTACATCATCCATATTATTCTGTCTAGCCAACTCTAACTACGAACGAATCCATAGCCGTACAATACTACTAGCACGAGGGATCCAAACCATTCTCCCTCTTATAGCCACCTGATGACTACTCGCCAGCCTAACTAACCTAGCCCTACCCACCTCTATCAATTTAATTGGCGAACTATTCGTCACTATAGCATCCTTCTCATGATCAAACATTACAATTATCTTAATAGGCTTAAATATGCTCATCACCGCTCTCTATTCCCTCTATATATTAACTACTACACAACGAGGAAAACTCACATATCATTCGCACAACCTAAACCCATCCTTTACACGAGAAAACACCCTTATATCCATACACATACTCCCCCTTCTCCTATTTACCTTAAACCCCAAAATTATTCTAGGACCCACGTACTGTAAATATAGTTTAAA-AAAACACTAGATTGTGAATCCAGAAATAGAAGCTCAAAC-CTTCTTATTTACCGAGAAAGTAATGTATGAACTGCTAACTCTGCACTCCGTATATAAAAATACGGCTATCTCAACTTTTAAAGGATAGAAGTAATCCATTGGCCTTAGGAGCCAAAAA-ATTGGTGCAACTCCAAATAAAAGTAATAAATCTATTATCCTCTTTCACCCTTGTCACACTGATTATCCTAACTTTACCTATCATTATAAACGTTACAAACATATACAAAAACTACCCCTATGCACCATACGTAAAATCTTCTATTGCATGTGCCTTCATCACTAGCCTCATCCCAACTATATTATTTATCTCCTCAGGACAAGAAACAATCATTTCCAACTGACATTGAATAACAATCCAAACCCTAAAACTATCTATTAGCTT"/>
+        <sequence id="seq_Homo_sapiens" spec="Sequence" taxon="Homo_sapiens" totalcount="4" value="AAGCTTCACCGGCGCAGTCATTCTCATAATCGCCCACGGGCTTACATCCTCATTACTATTCTGCCTAGCAAACTCAAACTACGAACGCACTCACAGTCGCATCATAATCCTCTCTCAAGGACTTCAAACTCTACTCCCACTAATAGCTTTTTGATGACTTCTAGCAAGCCTCGCTAACCTCGCCTTACCCCCCACTATTAACCTACTGGGAGAACTCTCTGTGCTAGTAACCACGTTCTCCTGATCAAATATCACTCTCCTACTTACAGGACTCAACATACTAGTCACAGCCCTATACTCCCTCTACATATTTACCACAACACAATGGGGCTCACTCACCCACCACATTAACAACATAAAACCCTCATTCACACGAGAAAACACCCTCATGTTCATACACCTATCCCCCATTCTCCTCCTATCCCTCAACCCCGACATCATTACCGGGTTTTCCTCTTGTAAATATAGTTTAACCAAAACATCAGATTGTGAATCTGACAACAGAGGCTTA-CGACCCCTTATTTACCGAGAAAGCT-CACAAGAACTGCTAACTCATGCCCCCATGTCTAACAACATGGCTTTCTCAACTTTTAAAGGATAACAGCTATCCATTGGTCTTAGGCCCCAAAAATTTTGGTGCAACTCCAAATAAAAGTAATAACCATGCACACTACTATAACCACCCTAACCCTGACTTCCCTAATTCCCCCCATCCTTACCACCCTCGTTAACCCTAACAAAAAAAACTCATACCCCCATTATGTAAAATCCATTGTCGCATCCACCTTTATTATCAGTCTCTTCCCCACAACAATATTCATGTGCCTAGACCAAGAAGTTATTATCTCGAACTGACACTGAGCCACAACCCAAACAACCCAGCTCTCCCTAAGCTT"/>
+        <sequence id="seq_Pan" spec="Sequence" taxon="Pan" totalcount="4" value="AAGCTTCACCGGCGCAATTATCCTCATAATCGCCCACGGACTTACATCCTCATTATTATTCTGCCTAGCAAACTCAAATTATGAACGCACCCACAGTCGCATCATAATTCTCTCCCAAGGACTTCAAACTCTACTCCCACTAATAGCCTTTTGATGACTCCTAGCAAGCCTCGCTAACCTCGCCCTACCCCCTACCATTAATCTCCTAGGGGAACTCTCCGTGCTAGTAACCTCATTCTCCTGATCAAATACCACTCTCCTACTCACAGGATTCAACATACTAATCACAGCCCTGTACTCCCTCTACATGTTTACCACAACACAATGAGGCTCACTCACCCACCACATTAATAACATAAAGCCCTCATTCACACGAGAAAATACTCTCATATTTTTACACCTATCCCCCATCCTCCTTCTATCCCTCAATCCTGATATCATCACTGGATTCACCTCCTGTAAATATAGTTTAACCAAAACATCAGATTGTGAATCTGACAACAGAGGCTCA-CGACCCCTTATTTACCGAGAAAGCT-TATAAGAACTGCTAATTCATATCCCCATGCCTGACAACATGGCTTTCTCAACTTTTAAAGGATAACAGCCATCCGTTGGTCTTAGGCCCCAAAAATTTTGGTGCAACTCCAAATAAAAGTAATAACCATGTATACTACCATAACCACCTTAACCCTAACTCCCTTAATTCTCCCCATCCTCACCACCCTCATTAACCCTAACAAAAAAAACTCATATCCCCATTATGTGAAATCCATTATCGCGTCCACCTTTATCATTAGCCTTTTCCCCACAACAATATTCATATGCCTAGACCAAGAAGCTATTATCTCAAACTGGCACTGAGCAACAACCCAAACAACCCAGCTCTCCCTAAGCTT"/>
+        <sequence id="seq_Gorilla" spec="Sequence" taxon="Gorilla" totalcount="4" value="AAGCTTCACCGGCGCAGTTGTTCTTATAATTGCCCACGGACTTACATCATCATTATTATTCTGCCTAGCAAACTCAAACTACGAACGAACCCACAGCCGCATCATAATTCTCTCTCAAGGACTCCAAACCCTACTCCCACTAATAGCCCTTTGATGACTTCTGGCAAGCCTCGCCAACCTCGCCTTACCCCCCACCATTAACCTACTAGGAGAGCTCTCCGTACTAGTAACCACATTCTCCTGATCAAACACCACCCTTTTACTTACAGGATCTAACATACTAATTACAGCCCTGTACTCCCTTTATATATTTACCACAACACAATGAGGCCCACTCACACACCACATCACCAACATAAAACCCTCATTTACACGAGAAAACATCCTCATATTCATGCACCTATCCCCCATCCTCCTCCTATCCCTCAACCCCGATATTATCACCGGGTTCACCTCCTGTAAATATAGTTTAACCAAAACATCAGATTGTGAATCTGATAACAGAGGCTCA-CAACCCCTTATTTACCGAGAAAGCT-CGTAAGAGCTGCTAACTCATACCCCCGTGCTTGACAACATGGCTTTCTCAACTTTTAAAGGATAACAGCTATCCATTGGTCTTAGGACCCAAAAATTTTGGTGCAACTCCAAATAAAAGTAATAACTATGTACGCTACCATAACCACCTTAGCCCTAACTTCCTTAATTCCCCCTATCCTTACCACCTTCATCAATCCTAACAAAAAAAGCTCATACCCCCATTACGTAAAATCTATCGTCGCATCCACCTTTATCATCAGCCTCTTCCCCACAACAATATTTCTATGCCTAGACCAAGAAGCTATTATCTCAAGCTGACACTGAGCAACAACCCAAACAATTCAACTCTCCCTAAGCTT"/>
+        <sequence id="seq_Pongo" spec="Sequence" taxon="Pongo" totalcount="4" value="AAGCTTCACCGGCGCAACCACCCTCATGATTGCCCATGGACTCACATCCTCCCTACTGTTCTGCCTAGCAAACTCAAACTACGAACGAACCCACAGCCGCATCATAATCCTCTCTCAAGGCCTTCAAACTCTACTCCCCCTAATAGCCCTCTGATGACTTCTAGCAAGCCTCACTAACCTTGCCCTACCACCCACCATCAACCTTCTAGGAGAACTCTCCGTACTAATAGCCATATTCTCTTGATCTAACATCACCATCCTACTAACAGGACTCAACATACTAATCACAACCCTATACTCTCTCTATATATTCACCACAACACAACGAGGTACACCCACACACCACATCAACAACATAAAACCTTCTTTCACACGCGAAAATACCCTCATGCTCATACACCTATCCCCCATCCTCCTCTTATCCCTCAACCCCAGCATCATCGCTGGGTTCGCCTACTGTAAATATAGTTTAACCAAAACATTAGATTGTGAATCTAATAATAGGGCCCCA-CAACCCCTTATTTACCGAGAAAGCT-CACAAGAACTGCTAACTCTCACT-CCATGTGTGACAACATGGCTTTCTCAGCTTTTAAAGGATAACAGCTATCCCTTGGTCTTAGGATCCAAAAATTTTGGTGCAACTCCAAATAAAAGTAACAGCCATGTTTACCACCATAACTGCCCTCACCTTAACTTCCCTAATCCCCCCCATTACCGCTACCCTCATTAACCCCAACAAAAAAAACCCATACCCCCACTATGTAAAAACGGCCATCGCATCCGCCTTTACTATCAGCCTTATCCCAACAACAATATTTATCTGCCTAGGACAAGAAACCATCGTCACAAACTGATGCTGAACAACCACCCAGACACTACAACTCTCACTAAGCTT"/>
+        <sequence id="seq_Hylobates" spec="Sequence" taxon="Hylobates" totalcount="4" value="AAGCTTTACAGGTGCAACCGTCCTCATAATCGCCCACGGACTAACCTCTTCCCTGCTATTCTGCCTTGCAAACTCAAACTACGAACGAACTCACAGCCGCATCATAATCCTATCTCGAGGGCTCCAAGCCTTACTCCCACTGATAGCCTTCTGATGACTCGCAGCAAGCCTCGCTAACCTCGCCCTACCCCCCACTATTAACCTCCTAGGTGAACTCTTCGTACTAATGGCCTCCTTCTCCTGGGCAAACACTACTATTACACTCACCGGGCTCAACGTACTAATCACGGCCCTATACTCCCTTTACATATTTATCATAACACAACGAGGCACACTTACACACCACATTAAAAACATAAAACCCTCACTCACACGAGAAAACATATTAATACTTATGCACCTCTTCCCCCTCCTCCTCCTAACCCTCAACCCTAACATCATTACTGGCTTTACTCCCTGTAAACATAGTTTAATCAAAACATTAGATTGTGAATCTAACAATAGAGGCTCG-AAACCTCTTGCTTACCGAGAAAGCC-CACAAGAACTGCTAACTCACTATCCCATGTATGACAACATGGCTTTCTCAACTTTTAAAGGATAACAGCTATCCATTGGTCTTAGGACCCAAAAATTTTGGTGCAACTCCAAATAAAAGTAATAGCAATGTACACCACCATAGCCATTCTAACGCTAACCTCCCTAATTCCCCCCATTACAGCCACCCTTATTAACCCCAATAAAAAGAACTTATACCCGCACTACGTAAAAATGACCATTGCCTCTACCTTTATAATCAGCCTATTTCCCACAATAATATTCATGTGCACAGACCAAGAAACCATTATTTCAAACTGACACTGAACTGCAACCCAAACGCTAGAACTCTCCCTAAGCTT"/>
+        <sequence id="seq_Macaca_fuscata" spec="Sequence" taxon="Macaca_fuscata" totalcount="4" value="AAGCTTTTCCGGCGCAACCATCCTTATGATCGCTCACGGACTCACCTCTTCCATATATTTCTGCCTAGCCAATTCAAACTATGAACGCACTCACAACCGTACCATACTACTGTCCCGAGGACTTCAAATCCTACTTCCACTAACAGCCTTTTGATGATTAACAGCAAGCCTTACTAACCTTGCCCTACCCCCCACTATCAATCTACTAGGTGAACTCTTTGTAATCGCAACCTCATTCTCCTGATCCCATATCACCATTATGCTAACAGGACTTAACATATTAATTACGGCCCTCTACTCTCTCCACATATTCACTACAACACAACGAGGAACACTCACACATCACATAATCAACATAAAGCCCCCCTTCACACGAGAAAACACATTAATATTCATACACCTCGCTCCAATTATCCTTCTATCCCTCAACCCCAACATCATCCTGGGGTTTACCTCCTGTAGATATAGTTTAACTAAAACACTAGATTGTGAATCTAACCATAGAGACTCA-CCACCTCTTATTTACCGAGAAAACT-CGCAAGGACTGCTAACCCATGTACCCGTACCTAAAATTACGGTTTTCTCAACTTTTAAAGGATAACAGCTATCCATTGACCTTAGGAGTCAAAAACATTGGTGCAACTCCAAATAAAAGTAATAATCATGCACACCCCCATCATTATAACAACCCTTATCTCCCTAACTCTCCCAATTTTTGCCACCCTCATCAACCCTTACAAAAAACGTCCATACCCAGATTACGTAAAAACAACCGTAATATATGCTTTCATCATCAGCCTCCCCTCAACAACTTTATTCATCTTCTCAAACCAAGAAACAACCATTTGGAGCTGACATTGAATAATGACCCAAACACTAGACCTAACGCTAAGCTT"/>
+        <sequence id="seq_M._mulatta" spec="Sequence" taxon="M._mulatta" totalcount="4" value="AAGCTTTTCTGGCGCAACCATCCTCATGATTGCTCACGGACTCACCTCTTCCATATATTTCTGCCTAGCCAATTCAAACTATGAACGCACTCACAACCGTACCATACTACTGTCCCGGGGACTTCAAATCCTACTTCCACTAACAGCTTTCTGATGATTAACAGCAAGCCTTACTAACCTTGCCCTACCCCCCACTATCAACCTACTAGGTGAACTCTTTGTAATCGCGACCTCATTCTCCTGGTCCCATATCACCATTATATTAACAGGATTTAACATACTAATTACGGCCCTCTACTCCCTCCACATATTCACCACAACACAACGAGGAGCACTCACACATCACATAATCAACATAAAACCCCCCTTCACACGAGAAAACATATTAATATTCATACACCTCGCTCCAATCATCCTCCTATCTCTCAACCCCAACATCATCCTGGGGTTTACTTCCTGTAGATATAGTTTAACTAAAACATTAGATTGTGAATCTAACCATAGAGACTTA-CCACCTCTTATTTACCGAGAAAACT-CGCGAGGACTGCTAACCCATGTATCCGTACCTAAAATTACGGTTTTCTCAACTTTTAAAGGATAACAGCTATCCATTGACCTTAGGAGTCAAAAATATTGGTGCAACTCCAAATAAAAGTAATAATCATGCACACCCCTATCATAATAACAACCCTTATCTCCCTAACTCTCCCAATTTTTGCCACCCTCATCAACCCTTACAAAAAACGTCCATACCCAGATTACGTAAAAACAACCGTAATATATGCTTTCATCATCAGCCTCCCCTCAACAACTTTATTCATCTTCTCAAACCAAGAAACAACCATTTGAAGCTGACATTGAATAATAACCCAAACACTAGACCTAACACTAAGCTT"/>
+        <sequence id="seq_M._fascicularis" spec="Sequence" taxon="M._fascicularis" totalcount="4" value="AAGCTTCTCCGGCGCAACCACCCTTATAATCGCCCACGGGCTCACCTCTTCCATGTATTTCTGCTTGGCCAATTCAAACTATGAGCGCACTCATAACCGTACCATACTACTATCCCGAGGACTTCAAATTCTACTTCCATTGACAGCCTTCTGATGACTCACAGCAAGCCTTACTAACCTTGCCCTACCCCCCACTATTAATCTACTAGGCGAACTCTTTGTAATCACAACTTCATTTTCCTGATCCCATATCACCATTGTGTTAACGGGCCTTAATATACTAATCACAGCCCTCTACTCTCTCCACATGTTCATTACAGTACAACGAGGAACACTCACACACCACATAATCAATATAAAACCCCCCTTCACACGAGAAAACATATTAATATTCATACACCTCGCTCCAATTATCCTTCTATCTCTCAACCCCAACATCATCCTGGGGTTTACCTCCTGTAAATATAGTTTAACTAAAACATTAGATTGTGAATCTAACTATAGAGGCCTA-CCACTTCTTATTTACCGAGAAAACT-CGCAAGGACTGCTAATCCATGCCTCCGTACTTAAAACTACGGTTTCCTCAACTTTTAAAGGATAACAGCTATCCATTGACCTTAGGAGTCAAAAACATTGGTGCAACTCCAAATAAAAGTAATAATCATGCACACCCCCATCATAATAACAACCCTCATCTCCCTGACCCTTCCAATTTTTGCCACCCTCACCAACCCCTATAAAAAACGTTCATACCCAGACTACGTAAAAACAACCGTAATATATGCTTTTATTACCAGTCTCCCCTCAACAACCCTATTCATCCTCTCAAACCAAGAAACAACCATTTGGAGTTGACATTGAATAACAACCCAAACATTAGACCTAACACTAAGCTT"/>
+        <sequence id="seq_M._sylvanus" spec="Sequence" taxon="M._sylvanus" totalcount="4" value="AAGCTTCTCCGGTGCAACTATCCTTATAGTTGCCCATGGACTCACCTCTTCCATATACTTCTGCTTGGCCAACTCAAACTACGAACGCACCCACAGCCGCATCATACTACTATCCCGAGGACTCCAAATCCTACTCCCACTAACAGCCTTCTGATGATTCACAGCAAGCCTTACTAATCTTGCTCTACCCTCCACTATTAATCTACTGGGCGAACTCTTCGTAATCGCAACCTCATTTTCCTGATCCCACATCACCATCATACTAACAGGACTGAACATACTAATTACAGCCCTCTACTCTCTTCACATATTCACCACAACACAACGAGGAGCGCTCACACACCACATAATTAACATAAAACCACCTTTCACACGAGAAAACATATTAATACTCATACACCTCGCTCCAATTATTCTTCTATCTCTTAACCCCAACATCATTCTAGGATTTACTTCCTGTAAATATAGTTTAATTAAAACATTAGACTGTGAATCTAACTATAGAAGCTTA-CCACTTCTTATTTACCGAGAAAACT-TGCAAGGACCGCTAATCCACACCTCCGTACTTAAAACTACGGTTTTCTCAACTTTTAAAGGATAACAGCTATCCATTGGCCTTAGGAGTCAAAAATATTGGTGCAACTCCAAATAAAAGTAATAATCATGTATACCCCCATCATAATAACAACTCTCATCTCCCTAACTCTTCCAATTTTCGCTACCCTTATCAACCCCAACAAAAAACACCTATATCCAAACTACGTAAAAACAGCCGTAATATATGCTTTCATTACCAGCCTCTCTTCAACAACTTTATATATATTCTTAAACCAAGAAACAATCATCTGAAGCTGGCACTGAATAATAACCCAAACACTAAGCCTAACATTAAGCTT"/>
+        <sequence id="seq_Saimiri_sciureus" spec="Sequence" taxon="Saimiri_sciureus" totalcount="4" value="AAGCTTCACCGGCGCAATGATCCTAATAATCGCTCACGGGTTTACTTCGTCTATGCTATTCTGCCTAGCAAACTCAAATTACGAACGAATTCACAGCCGAACAATAACATTTACTCGAGGGCTCCAAACACTATTCCCGCTTATAGGCCTCTGATGACTCCTAGCAAATCTCGCTAACCTCGCCCTACCCACAGCTATTAATCTAGTAGGAGAATTACTCACAATCGTATCTTCCTTCTCTTGATCCAACTTTACTATTATATTCACAGGACTTAATATACTAATTACAGCACTCTACTCACTTCATATGTATGCCTCTACACAGCGAGGTCCACTTACATACAGCACCAGCAATATAAAACCAATATTTACACGAGAAAATACGCTAATATTTATACATATAACACCAATCCTCCTCCTTACCTTGAGCCCCAAGGTAATTATAGGACCCTCACCTTGTAATTATAGTTTAGCTAAAACATTAGATTGTGAATCTAATAATAGAAGAATA-TAACTTCTTAATTACCGAGAAAGTG-CGCAAGAACTGCTAATTCATGCTCCCAAGACTAACAACTTGGCTTCCTCAACTTTTAAAGGATAGTAGTTATCCATTGGTCTTAGGAGCCAAAAACATTGGTGCAACTCCAAATAAAAGTAATA---ATACACTTCTCCATCACTCTAATAACACTAATTAGCCTACTAGCGCCAATCCTAGCTACCCTCATTAACCCTAACAAAAGCACACTATACCCGTACTACGTAAAACTAGCCATCATCTACGCCCTCATTACCAGTACCTTATCTATAATATTCTTTATCCTTACAGGCCAAGAATCAATAATTTCAAACTGACACTGAATAACTATCCAAACCATCAAACTATCCCTAAGCTT"/>
+        <sequence id="seq_Tarsius_syrichta" spec="Sequence" taxon="Tarsius_syrichta" totalcount="4" value="AAGTTTCATTGGAGCCACCACTCTTATAATTGCCCATGGCCTCACCTCCTCCCTATTATTTTGCCTAGCAAATACAAACTACGAACGAGTCCACAGTCGAACAATAGCACTAGCCCGTGGCCTTCAAACCCTATTACCTCTTGCAGCAACATGATGACTCCTCGCCAGCTTAACCAACCTGGCCCTTCCCCCAACAATTAATTTAATCGGTGAACTGTCCGTAATAATAGCAGCATTTTCATGGTCACACCTAACTATTATCTTAGTAGGCCTTAACACCCTTATCACCGCCCTATATTCCCTATATATACTAATCATAACTCAACGAGGAAAATACACATATCATATCAACAATATCATGCCCCCTTTCACCCGAGAAAATACATTAATAATCATACACCTATTTCCCTTAATCCTACTATCTACCAACCCCAAAGTAATTATAGGAACCATGTACTGTAAATATAGTTTAAACAAAACATTAGATTGTGAGTCTAATAATAGAAGCCCAAAGATTTCTTATTTACCAAGAAAGTA-TGCAAGAACTGCTAACTCATGCCTCCATATATAACAATGTGGCTTTCTT-ACTTTTAAAGGATAGAAGTAATCCATCGGTCTTAGGAACCGAAAA-ATTGGTGCAACTCCAAATAAAAGTAATAAATTTATTTTCATCCTCCATTTTACTATCACTTACACTCTTAATTACCCCATTTATTATTACAACAACTAAAAAATATGAAACACATGCATACCCTTACTACGTAAAAAACTCTATCGCCTGCGCATTTATAACAAGCCTAGTCCCAATGCTCATATTTCTATACACAAATCAAGAAATAATCATTTCCAACTGACATTGAATAACGATTCATACTATCAAATTATGCCTAAGCTT"/>
+    </data>
+
+    <map name="Uniform" >beast.base.inference.distribution.Uniform</map>
+
+    <map name="Exponential" >beast.base.inference.distribution.Exponential</map>
+
+    <map name="LogNormal" >beast.base.inference.distribution.LogNormalDistributionModel</map>
+
+    <map name="Normal" >beast.base.inference.distribution.Normal</map>
+
+    <map name="Beta" >beast.base.inference.distribution.Beta</map>
+
+    <map name="Gamma" >beast.base.inference.distribution.Gamma</map>
+
+    <map name="LaplaceDistribution" >beast.base.inference.distribution.LaplaceDistribution</map>
+
+    <map name="prior" >beast.base.inference.distribution.Prior</map>
+
+    <map name="InverseGamma" >beast.base.inference.distribution.InverseGamma</map>
+
+    <map name="OneOnX" >beast.base.inference.distribution.OneOnX</map>
+
+    <run id="mcmc" spec="MCMC" chainLength="10000000">
+        <state id="state" spec="State" storeEvery="5000">
+            <tree id="Tree.t:2ndpos" spec="beast.base.evolution.tree.Tree" name="stateNode">
+                <taxonset id="TaxonSet.2ndpos" spec="TaxonSet">
+                    <alignment id="2ndpos" spec="FilteredAlignment" filter="3-457\3,661-896\3">
+                        <data idref="primate-mtDNA"/>
+                    </alignment>
+                </taxonset>
+            </tree>
+            <parameter id="birthRate.t:2ndpos" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+            <tree id="Tree.t:3rdpos" spec="beast.base.evolution.tree.Tree" name="stateNode">
+                <taxonset id="TaxonSet.3rdpos" spec="TaxonSet">
+                    <alignment id="3rdpos" spec="FilteredAlignment" data="@primate-mtDNA" filter="4-457\3,662-.\3"/>
+                </taxonset>
+            </tree>
+            <parameter id="birthRate.t:3rdpos" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+            <tree id="Tree.t:noncoding" spec="beast.base.evolution.tree.Tree" name="stateNode">
+                <taxonset id="TaxonSet.noncoding" spec="TaxonSet">
+                    <alignment id="noncoding" spec="FilteredAlignment" data="@primate-mtDNA" filter="1,458-659,897-898"/>
+                </taxonset>
+            </tree>
+            <parameter id="birthRate.t:noncoding" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+            <tree id="Tree.t:1stpos" spec="beast.base.evolution.tree.Tree" name="stateNode">
+                <taxonset id="TaxonSet.1stpos" spec="TaxonSet">
+                    <alignment id="1stpos" spec="FilteredAlignment" data="@primate-mtDNA" filter="2-457\3,660-896\3"/>
+                </taxonset>
+            </tree>
+            <parameter id="birthRate.t:1stpos" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+        </state>
+        <init id="RandomTree.t:2ndpos" spec="RandomTree" estimate="false" initial="@Tree.t:2ndpos" taxa="@2ndpos">
+            <populationModel id="ConstantPopulation0.t:2ndpos" spec="ConstantPopulation">
+                <parameter id="randomPopSize.t:2ndpos" spec="parameter.RealParameter" name="popSize">1.0</parameter>
+            </populationModel>
+        </init>
+        <init id="RandomTree.t:3rdpos" spec="RandomTree" estimate="false" initial="@Tree.t:3rdpos" taxa="@3rdpos">
+            <populationModel id="ConstantPopulation0.t:3rdpos" spec="ConstantPopulation">
+                <parameter id="randomPopSize.t:3rdpos" spec="parameter.RealParameter" name="popSize">1.0</parameter>
+            </populationModel>
+        </init>
+        <init id="RandomTree.t:noncoding" spec="RandomTree" estimate="false" initial="@Tree.t:noncoding" taxa="@noncoding">
+            <populationModel id="ConstantPopulation0.t:noncoding" spec="ConstantPopulation">
+                <parameter id="randomPopSize.t:noncoding" spec="parameter.RealParameter" name="popSize">1.0</parameter>
+            </populationModel>
+        </init>
+        <init id="RandomTree.t:1stpos" spec="RandomTree" estimate="false" initial="@Tree.t:1stpos" taxa="@1stpos">
+            <populationModel id="ConstantPopulation0.t:1stpos" spec="ConstantPopulation">
+                <parameter id="randomPopSize.t:1stpos" spec="parameter.RealParameter" name="popSize">1.0</parameter>
+            </populationModel>
+        </init>
+        <distribution id="posterior" spec="CompoundDistribution">
+            <distribution id="prior" spec="CompoundDistribution">
+                <distribution id="YuleModel.t:noncoding" spec="beast.base.evolution.speciation.YuleModel" birthDiffRate="@birthRate.t:noncoding" tree="@Tree.t:noncoding"/>
+                <distribution id="YuleModel.t:1stpos" spec="beast.base.evolution.speciation.YuleModel" birthDiffRate="@birthRate.t:1stpos" tree="@Tree.t:1stpos"/>
+                <distribution id="YuleModel.t:2ndpos" spec="beast.base.evolution.speciation.YuleModel" birthDiffRate="@birthRate.t:2ndpos" tree="@Tree.t:2ndpos"/>
+                <distribution id="YuleModel.t:3rdpos" spec="beast.base.evolution.speciation.YuleModel" birthDiffRate="@birthRate.t:3rdpos" tree="@Tree.t:3rdpos"/>
+                <prior id="YuleBirthRatePrior.t:2ndpos" name="distribution" x="@birthRate.t:2ndpos">
+                    <Uniform id="Uniform.7" name="distr" upper="Infinity"/>
+                </prior>
+                <prior id="YuleBirthRatePrior.t:3rdpos" name="distribution" x="@birthRate.t:3rdpos">
+                    <Uniform id="Uniform.10" name="distr" upper="Infinity"/>
+                </prior>
+                <prior id="YuleBirthRatePrior.t:noncoding" name="distribution" x="@birthRate.t:noncoding">
+                    <Uniform id="Uniform.1" name="distr" upper="Infinity"/>
+                </prior>
+                <prior id="YuleBirthRatePrior.t:1stpos" name="distribution" x="@birthRate.t:1stpos">
+                    <Uniform id="Uniform.4" name="distr" upper="Infinity"/>
+                </prior>
+            </distribution>
+            <distribution id="likelihood" spec="CompoundDistribution" useThreads="true">
+                <distribution id="treeLikelihood.noncoding" spec="ThreadedTreeLikelihood" data="@noncoding" tree="@Tree.t:noncoding">
+                    <siteModel id="SiteModel.s:noncoding" spec="SiteModel">
+                        <parameter id="mutationRate.s:noncoding" spec="parameter.RealParameter" estimate="false" lower="0.0" name="mutationRate">1.0</parameter>
+                        <parameter id="gammaShape.s:noncoding" spec="parameter.RealParameter" estimate="false" lower="0.1" name="shape">1.0</parameter>
+                        <parameter id="proportionInvariant.s:noncoding" spec="parameter.RealParameter" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+                        <substModel id="JC69.s:noncoding" spec="JukesCantor"/>
+                    </siteModel>
+                    <branchRateModel id="StrictClock.c:noncoding" spec="beast.base.evolution.branchratemodel.StrictClockModel">
+                        <parameter id="clockRate.c:noncoding" spec="parameter.RealParameter" estimate="false" lower="0.0" name="clock.rate">1.0</parameter>
+                    </branchRateModel>
+                </distribution>
+                <distribution id="treeLikelihood.1stpos" spec="ThreadedTreeLikelihood" data="@1stpos" tree="@Tree.t:1stpos">
+                    <siteModel id="SiteModel.s:1stpos" spec="SiteModel">
+                        <parameter id="mutationRate.s:1stpos" spec="parameter.RealParameter" estimate="false" lower="0.0" name="mutationRate">1.0</parameter>
+                        <parameter id="gammaShape.s:1stpos" spec="parameter.RealParameter" estimate="false" lower="0.1" name="shape">1.0</parameter>
+                        <parameter id="proportionInvariant.s:1stpos" spec="parameter.RealParameter" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+                        <substModel id="JC69.s:1stpos" spec="JukesCantor"/>
+                    </siteModel>
+                    <branchRateModel id="StrictClock.c:1stpos" spec="beast.base.evolution.branchratemodel.StrictClockModel">
+                        <parameter id="clockRate.c:1stpos" spec="parameter.RealParameter" estimate="false" lower="0.0" name="clock.rate">1.0</parameter>
+                    </branchRateModel>
+                </distribution>
+                <distribution id="treeLikelihood.2ndpos" spec="ThreadedTreeLikelihood" data="@2ndpos" tree="@Tree.t:2ndpos">
+                    <siteModel id="SiteModel.s:2ndpos" spec="SiteModel">
+                        <parameter id="mutationRate.s:2ndpos" spec="parameter.RealParameter" estimate="false" lower="0.0" name="mutationRate">1.0</parameter>
+                        <parameter id="gammaShape.s:2ndpos" spec="parameter.RealParameter" estimate="false" lower="0.1" name="shape">1.0</parameter>
+                        <parameter id="proportionInvariant.s:2ndpos" spec="parameter.RealParameter" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+                        <substModel id="JC69.s:2ndpos" spec="JukesCantor"/>
+                    </siteModel>
+                    <branchRateModel id="StrictClock.c:2ndpos" spec="beast.base.evolution.branchratemodel.StrictClockModel">
+                        <parameter id="clockRate.c:2ndpos" spec="parameter.RealParameter" estimate="false" lower="0.0" name="clock.rate">1.0</parameter>
+                    </branchRateModel>
+                </distribution>
+                <distribution id="treeLikelihood.3rdpos" spec="ThreadedTreeLikelihood" data="@3rdpos" tree="@Tree.t:3rdpos">
+                    <siteModel id="SiteModel.s:3rdpos" spec="SiteModel">
+                        <parameter id="mutationRate.s:3rdpos" spec="parameter.RealParameter" estimate="false" lower="0.0" name="mutationRate">1.0</parameter>
+                        <parameter id="gammaShape.s:3rdpos" spec="parameter.RealParameter" estimate="false" lower="0.1" name="shape">1.0</parameter>
+                        <parameter id="proportionInvariant.s:3rdpos" spec="parameter.RealParameter" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+                        <substModel id="JC69.s:3rdpos" spec="JukesCantor"/>
+                    </siteModel>
+                    <branchRateModel id="StrictClock.c:3rdpos" spec="beast.base.evolution.branchratemodel.StrictClockModel">
+                        <parameter id="clockRate.c:3rdpos" spec="parameter.RealParameter" estimate="false" lower="0.0" name="clock.rate">1.0</parameter>
+                    </branchRateModel>
+                </distribution>
+            </distribution>
+        </distribution>
+        <operator id="YuleBirthRateScaler.t:2ndpos" spec="kernel.BactrianScaleOperator" parameter="@birthRate.t:2ndpos" upper="10.0" weight="3.0"/>
+        <operator id="YuleModelTreeRootScaler.t:2ndpos" spec="kernel.BactrianScaleOperator" rootOnly="true" scaleFactor="0.5" tree="@Tree.t:2ndpos" upper="10.0" weight="3.0"/>
+        <operator id="YuleModelUniformOperator.t:2ndpos" spec="kernel.BactrianNodeOperator" tree="@Tree.t:2ndpos" weight="30.0"/>
+        <operator id="YuleModelSubtreeSlide.t:2ndpos" spec="kernel.BactrianSubtreeSlide" tree="@Tree.t:2ndpos" weight="15.0"/>
+        <operator id="YuleModelNarrow.t:2ndpos" spec="Exchange" tree="@Tree.t:2ndpos" weight="15.0"/>
+        <operator id="YuleModelWide.t:2ndpos" spec="Exchange" isNarrow="false" tree="@Tree.t:2ndpos" weight="3.0"/>
+        <operator id="YuleModelWilsonBalding.t:2ndpos" spec="WilsonBalding" tree="@Tree.t:2ndpos" weight="3.0"/>
+        <operator id="YuleModelBICEPSEpochTop.t:2ndpos" spec="EpochFlexOperator" scaleFactor="0.1" tree="@Tree.t:2ndpos" weight="2.0"/>
+        <operator id="YuleModelBICEPSEpochAll.t:2ndpos" spec="EpochFlexOperator" fromOldestTipOnly="false" scaleFactor="0.1" tree="@Tree.t:2ndpos" weight="2.0"/>
+        <operator id="YuleModelBICEPSTreeFlex.t:2ndpos" spec="TreeStretchOperator" scaleFactor="0.01" tree="@Tree.t:2ndpos" weight="2.0"/>
+        <operator id="YuleBirthRateScaler.t:3rdpos" spec="kernel.BactrianScaleOperator" parameter="@birthRate.t:3rdpos" upper="10.0" weight="3.0"/>
+        <operator id="YuleModelTreeRootScaler.t:3rdpos" spec="kernel.BactrianScaleOperator" rootOnly="true" scaleFactor="0.5" tree="@Tree.t:3rdpos" upper="10.0" weight="3.0"/>
+        <operator id="YuleModelUniformOperator.t:3rdpos" spec="kernel.BactrianNodeOperator" tree="@Tree.t:3rdpos" weight="30.0"/>
+        <operator id="YuleModelSubtreeSlide.t:3rdpos" spec="kernel.BactrianSubtreeSlide" tree="@Tree.t:3rdpos" weight="15.0"/>
+        <operator id="YuleModelNarrow.t:3rdpos" spec="Exchange" tree="@Tree.t:3rdpos" weight="15.0"/>
+        <operator id="YuleModelWide.t:3rdpos" spec="Exchange" isNarrow="false" tree="@Tree.t:3rdpos" weight="3.0"/>
+        <operator id="YuleModelWilsonBalding.t:3rdpos" spec="WilsonBalding" tree="@Tree.t:3rdpos" weight="3.0"/>
+        <operator id="YuleModelBICEPSEpochTop.t:3rdpos" spec="EpochFlexOperator" scaleFactor="0.1" tree="@Tree.t:3rdpos" weight="2.0"/>
+        <operator id="YuleModelBICEPSEpochAll.t:3rdpos" spec="EpochFlexOperator" fromOldestTipOnly="false" scaleFactor="0.1" tree="@Tree.t:3rdpos" weight="2.0"/>
+        <operator id="YuleModelBICEPSTreeFlex.t:3rdpos" spec="TreeStretchOperator" scaleFactor="0.01" tree="@Tree.t:3rdpos" weight="2.0"/>
+        <operator id="YuleBirthRateScaler.t:noncoding" spec="kernel.BactrianScaleOperator" parameter="@birthRate.t:noncoding" upper="10.0" weight="3.0"/>
+        <operator id="YuleModelTreeRootScaler.t:noncoding" spec="kernel.BactrianScaleOperator" rootOnly="true" scaleFactor="0.5" tree="@Tree.t:noncoding" upper="10.0" weight="3.0"/>
+        <operator id="YuleModelUniformOperator.t:noncoding" spec="kernel.BactrianNodeOperator" tree="@Tree.t:noncoding" weight="30.0"/>
+        <operator id="YuleModelSubtreeSlide.t:noncoding" spec="kernel.BactrianSubtreeSlide" tree="@Tree.t:noncoding" weight="15.0"/>
+        <operator id="YuleModelNarrow.t:noncoding" spec="Exchange" tree="@Tree.t:noncoding" weight="15.0"/>
+        <operator id="YuleModelWide.t:noncoding" spec="Exchange" isNarrow="false" tree="@Tree.t:noncoding" weight="3.0"/>
+        <operator id="YuleModelWilsonBalding.t:noncoding" spec="WilsonBalding" tree="@Tree.t:noncoding" weight="3.0"/>
+        <operator id="YuleModelBICEPSEpochTop.t:noncoding" spec="EpochFlexOperator" scaleFactor="0.1" tree="@Tree.t:noncoding" weight="2.0"/>
+        <operator id="YuleModelBICEPSEpochAll.t:noncoding" spec="EpochFlexOperator" fromOldestTipOnly="false" scaleFactor="0.1" tree="@Tree.t:noncoding" weight="2.0"/>
+        <operator id="YuleModelBICEPSTreeFlex.t:noncoding" spec="TreeStretchOperator" scaleFactor="0.01" tree="@Tree.t:noncoding" weight="2.0"/>
+        <operator id="YuleBirthRateScaler.t:1stpos" spec="kernel.BactrianScaleOperator" parameter="@birthRate.t:1stpos" upper="10.0" weight="3.0"/>
+        <operator id="YuleModelTreeRootScaler.t:1stpos" spec="kernel.BactrianScaleOperator" rootOnly="true" scaleFactor="0.5" tree="@Tree.t:1stpos" upper="10.0" weight="3.0"/>
+        <operator id="YuleModelUniformOperator.t:1stpos" spec="kernel.BactrianNodeOperator" tree="@Tree.t:1stpos" weight="30.0"/>
+        <operator id="YuleModelSubtreeSlide.t:1stpos" spec="kernel.BactrianSubtreeSlide" tree="@Tree.t:1stpos" weight="15.0"/>
+        <operator id="YuleModelNarrow.t:1stpos" spec="Exchange" tree="@Tree.t:1stpos" weight="15.0"/>
+        <operator id="YuleModelWide.t:1stpos" spec="Exchange" isNarrow="false" tree="@Tree.t:1stpos" weight="3.0"/>
+        <operator id="YuleModelWilsonBalding.t:1stpos" spec="WilsonBalding" tree="@Tree.t:1stpos" weight="3.0"/>
+        <operator id="YuleModelBICEPSEpochTop.t:1stpos" spec="EpochFlexOperator" scaleFactor="0.1" tree="@Tree.t:1stpos" weight="2.0"/>
+        <operator id="YuleModelBICEPSEpochAll.t:1stpos" spec="EpochFlexOperator" fromOldestTipOnly="false" scaleFactor="0.1" tree="@Tree.t:1stpos" weight="2.0"/>
+        <operator id="YuleModelBICEPSTreeFlex.t:1stpos" spec="TreeStretchOperator" scaleFactor="0.01" tree="@Tree.t:1stpos" weight="2.0"/>
+        <logger id="tracelog" spec="Logger" fileName="$(filebase).log" logEvery="1000" model="@posterior" sanitiseHeaders="true" sort="smart">
+            <log idref="posterior"/>
+            <log idref="likelihood"/>
+            <log idref="prior"/>
+            <log idref="treeLikelihood.2ndpos"/>
+            <log id="TreeHeight.t:2ndpos" spec="beast.base.evolution.tree.TreeStatLogger" tree="@Tree.t:2ndpos"/>
+            <log idref="YuleModel.t:2ndpos"/>
+            <log idref="birthRate.t:2ndpos"/>
+            <log idref="treeLikelihood.3rdpos"/>
+            <log id="TreeHeight.t:3rdpos" spec="beast.base.evolution.tree.TreeStatLogger" tree="@Tree.t:3rdpos"/>
+            <log idref="YuleModel.t:3rdpos"/>
+            <log idref="birthRate.t:3rdpos"/>
+            <log idref="treeLikelihood.noncoding"/>
+            <log id="TreeHeight.t:noncoding" spec="beast.base.evolution.tree.TreeStatLogger" tree="@Tree.t:noncoding"/>
+            <log idref="YuleModel.t:noncoding"/>
+            <log idref="birthRate.t:noncoding"/>
+            <log idref="treeLikelihood.1stpos"/>
+            <log id="TreeHeight.t:1stpos" spec="beast.base.evolution.tree.TreeStatLogger" tree="@Tree.t:1stpos"/>
+            <log idref="YuleModel.t:1stpos"/>
+            <log idref="birthRate.t:1stpos"/>
+        </logger>
+        <logger id="screenlog" spec="Logger" logEvery="1000">
+            <log idref="posterior"/>
+            <log idref="likelihood"/>
+            <log idref="prior"/>
+        </logger>
+        <logger id="treelog.t:2ndpos" spec="Logger" fileName="$(filebase)-$(tree).trees" logEvery="1000" mode="tree">
+            <log id="TreeWithMetaDataLogger.t:2ndpos" spec="beast.base.evolution.TreeWithMetaDataLogger" tree="@Tree.t:2ndpos"/>
+        </logger>
+        <logger id="treelog.t:3rdpos" spec="Logger" fileName="$(filebase)-$(tree).trees" logEvery="1000" mode="tree">
+            <log id="TreeWithMetaDataLogger.t:3rdpos" spec="beast.base.evolution.TreeWithMetaDataLogger" tree="@Tree.t:3rdpos"/>
+        </logger>
+        <logger id="treelog.t:noncoding" spec="Logger" fileName="$(filebase)-$(tree).trees" logEvery="1000" mode="tree">
+            <log id="TreeWithMetaDataLogger.t:noncoding" spec="beast.base.evolution.TreeWithMetaDataLogger" tree="@Tree.t:noncoding"/>
+        </logger>
+        <logger id="treelog.t:1stpos" spec="Logger" fileName="$(filebase)-$(tree).trees" logEvery="1000" mode="tree">
+            <log id="TreeWithMetaDataLogger.t:1stpos" spec="beast.base.evolution.TreeWithMetaDataLogger" tree="@Tree.t:1stpos"/>
+        </logger>
+        <operatorschedule id="OperatorSchedule" spec="OperatorSchedule"/>
+    </run>
+
+</beast>
