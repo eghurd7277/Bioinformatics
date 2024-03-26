@@ -1,0 +1,3 @@
+Organism Scientific Name	Organism Common Name	Organism Qualifier	Taxonomy id	Assembly Name	Assembly Accession	Source	Annotation	Level	Contig N50	Size	Submission Date	Gene Count	BioProject	BioSample
+Thermus thermophilus		isolate: TTHNAR1	274	TTHNAR1	GCA_900604845.1	GenBank	Annotation submitted by CBMSO	Complete Genome	2021843	2479642	2018-11-21	3017	PRJEB29203	SAMEA4983637
+Thermus thermophilus		isolate: TTHNAR1	274	TTHNAR1	GCF_900604845.1	RefSeq	NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Complete Genome	2021843	2479642	2018-11-21	2822	PRJEB29203	SAMEA4983637
