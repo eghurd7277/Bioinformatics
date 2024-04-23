@@ -27,15 +27,15 @@ aln2 <- msaConvert(alignment, type="seqinr::alignment")
 #computing distance matrix
 dmat <- dist.alignment(aln2,matrix="identity")
 distmat <- as.matrix(dmat)
-
-#writing to phydat format
-Alignment_phyDat <- msaConvert(alignment, type="phangorn::phyDat")
-write.phyDat(Alignment_phyDat, "alignment.fasta", format = "fasta")
-
 mydistmat <- as.dist(distmat)
 
 #building a neighbor joining tree
 myNJtree <- ape::nj(mydistmat)
 
-#plotting tree
+#plotting the nj tree unrooted
 plot(myNJtree, "unrooted")
+#plotting the nj tree rooted
+plot(myNJtree)
+
+#Writing alignment to new file to do RaxML tree
+write.phylip(alignment, filepath = "/Users/emmagrace3/Desktop/bioinformatics/GitHub/Bioinformatics/Final_Presentation/Alignment")
