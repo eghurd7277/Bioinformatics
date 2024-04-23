@@ -7,11 +7,11 @@ library(phangorn)
 library(ape)
 
 #reading in fasta files
-catus <- readDNAStringSet("/Users/emmagrace3/Desktop/bioinformatics/GitHub/Bioinformatics/Final_Presentation/catus.fasta", format = "fasta")
-silvestris <- readDNAStringSet("/Users/emmagrace3/Desktop/bioinformatics/GitHub/Bioinformatics/Final_Presentation/silvestris.fasta", format = "fasta")
-nigripes <- readDNAStringSet("/Users/emmagrace3/Desktop/bioinformatics/GitHub/Bioinformatics/Final_Presentation/nigripes.fasta", format = "fasta")
-margarita <- readDNAStringSet("/Users/emmagrace3/Desktop/bioinformatics/GitHub/Bioinformatics/Final_Presentation/margarita.fasta", format = "fasta")
-chaus <- readDNAStringSet("/Users/emmagrace3/Desktop/bioinformatics/GitHub/Bioinformatics/Final_Presentation/chaus.fasta", format = "fasta")
+catus <- readDNAStringSet("/Users/emmagrace3/Desktop/bioinformatics/GitHub/Bioinformatics/Final_Presentation/starting_seqs/catus.fasta", format = "fasta")
+silvestris <- readDNAStringSet("/Users/emmagrace3/Desktop/bioinformatics/GitHub/Bioinformatics/Final_Presentation/starting_seqs/silvestris.fasta", format = "fasta")
+nigripes <- readDNAStringSet("/Users/emmagrace3/Desktop/bioinformatics/GitHub/Bioinformatics/Final_Presentation/starting_seqs/nigripes.fasta", format = "fasta")
+margarita <- readDNAStringSet("/Users/emmagrace3/Desktop/bioinformatics/GitHub/Bioinformatics/Final_Presentation/starting_seqs/margarita.fasta", format = "fasta")
+chaus <- readDNAStringSet("/Users/emmagrace3/Desktop/bioinformatics/GitHub/Bioinformatics/Final_Presentation/starting_seqs/chaus.fasta", format = "fasta")
 
 #combining fasta files into one, rewriting seqence names
 sequences <- c(catus,silvestris,nigripes,margarita,chaus)
@@ -38,4 +38,6 @@ plot(myNJtree, "unrooted")
 plot(myNJtree)
 
 #Writing alignment to new file to do RaxML tree
-write.phylip(alignment, filepath = "/Users/emmagrace3/Desktop/bioinformatics/GitHub/Bioinformatics/Final_Presentation/Alignment")
+write.phylip(alignment, filepath = "/Users/emmagrace3/Desktop/bioinformatics/GitHub/Bioinformatics/Final_Presentation/Alignment.phy")
+
+
