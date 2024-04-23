@@ -13,7 +13,7 @@ nigripes <- readDNAStringSet("/Users/emmagrace3/Desktop/bioinformatics/GitHub/Bi
 margarita <- readDNAStringSet("/Users/emmagrace3/Desktop/bioinformatics/GitHub/Bioinformatics/Final_Presentation/starting_seqs/margarita.fasta", format = "fasta")
 chaus <- readDNAStringSet("/Users/emmagrace3/Desktop/bioinformatics/GitHub/Bioinformatics/Final_Presentation/starting_seqs/chaus.fasta", format = "fasta")
 
-#combining fasta files into one, rewriting seqence names
+#combining fasta files into one, rewriting sequence names
 sequences <- c(catus,silvestris,nigripes,margarita,chaus)
 names(sequences) <- c("catus_GU300839.1", "catus_GU300838.1", "silvestris_GU300940.1", "silvestris_GU300937.1", "nigripes_GU300900.1", "nigripes_GU300897.1", "margarita_GU300871.1", "margarita_GU300869.1", "chaus_GU300852.1", "chaus_GU300851.1")
 
